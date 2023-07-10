@@ -6,11 +6,6 @@ function log(request: Request, response: Response, next: Function) {
   next()
 }
 
-// async function log(req, res, next) {
-//   // logger.info('Sample Logger Middleware')
-//   next()
-// }
-
 module.exports = {
   log
 }

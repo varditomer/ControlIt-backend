@@ -3,7 +3,6 @@ import { Request, Response } from 'express'
 const express = require('express')
 const cors = require('cors')
 const path = require('path')
-const cookieParser = require('cookie-parser')
 import * as dotenv from "dotenv"
 
 // import { _createDemoData } from './services/db.service'
@@ -17,7 +16,6 @@ const app = express()
 const http = require('http').createServer(app)
 
 // Express App Config
-app.use(cookieParser())
 app.use(express.json())
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.resolve(__dirname, 'public')))
@@ -33,6 +31,8 @@ const authRoutes = require('./api/auth/auth.routes')
 const accountRoutes = require('./api/account/account.routes')
 
 // routes
+const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
+app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/account', accountRoutes)
 

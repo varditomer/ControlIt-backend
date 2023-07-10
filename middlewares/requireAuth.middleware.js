@@ -12,15 +12,16 @@ function requireAuth(req, res, next) {
     return res.status(401).send('Not Authenticated')
   }
 
-  try {
-    const userInfo = authService.verifyToken(token)
+  const userInfo = authService.verifyToken(token)
+  if (!userInfo) {
+    return res.status(401).json({ error: 'TokenVerificationError', message: 'Failed to verify token' })
+  }
+  else {
     req.userInfo = userInfo // Attach userInfo to the request object
     next()
-  } catch (error) {
-    return res.status(401).send('Not Authenticated')
   }
-}
 
+}
 
 module.exports = {
   requireAuth,

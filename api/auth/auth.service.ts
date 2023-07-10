@@ -49,18 +49,12 @@ async function hashPassword(password: string) {
 }
 
 function generateToken(userInfo: UserInfo) {
-    return jwt.sign(userInfo, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN })
+    return jwt.sign(userInfo, process.env.JWT_SECRET, { expiresIn: "1s" })
 }
 
-function verifyToken(token: string) {
-    try {
-        const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        return decoded; // The decoded payload
-      } catch (error) {
-        // Token verification failed
-        console.error('Failed to verify token:', error)
-        throw new Error('Failed to verify token.')
-      }
+function verifyToken(token: string): any {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET)
+    return decoded; // The decoded payload
 }
 
 export {

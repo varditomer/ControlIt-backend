@@ -1,7 +1,6 @@
 // Internal Dependencies
 import { doLogin, generateToken } from './auth.service'
 const logger = require('../../services/logger.service')
-// import { User, UserCredentials } from '../../Interfaces/user.interface'
 
 // External Dependencies
 import { Request, Response } from 'express'

@@ -1,0 +1,146 @@
+10.7.2023, 22:44:46 - INFO - Server is running on port: 3030 
+10.7.2023, 22:45:07 - INFO - Server is running on port: 3030 
+10.7.2023, 22:46:13 - INFO - Server is running on port: 3030 
+10.7.2023, 22:47:37 - INFO - Server is running on port: 3030 
+10.7.2023, 22:48:16 - INFO - Server is running on port: 3030 
+10.7.2023, 22:48:24 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 22:48:24 - INFO - User login:  | user1@example.com 
+10.7.2023, 22:52:16 - INFO - Server is running on port: 3030 
+10.7.2023, 22:55:56 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 22:55:57 - INFO - User login:  | user1@example.com 
+10.7.2023, 22:56:11 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 22:56:11 - INFO - User login:  | user1@example.com 
+10.7.2023, 22:58:20 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 22:58:20 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:05:25 - INFO - Server is running on port: 3030 
+10.7.2023, 23:05:39 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:05:39 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:06:15 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:06:15 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:15:36 - INFO - Server is running on port: 3030 
+10.7.2023, 23:16:35 - INFO - Server is running on port: 3030 
+10.7.2023, 23:16:46 - INFO - Server is running on port: 3030 
+10.7.2023, 23:20:45 - INFO - Server is running on port: 3030 
+10.7.2023, 23:20:49 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:20:49 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:22:20 - INFO - Server is running on port: 3030 
+10.7.2023, 23:22:34 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:22:34 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:24:00 - INFO - Server is running on port: 3030 
+10.7.2023, 23:24:05 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:24:05 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:24:53 - INFO - Server is running on port: 3030 
+10.7.2023, 23:24:57 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:24:57 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:29:21 - INFO - Server is running on port: 3030 
+10.7.2023, 23:29:26 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:29:26 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:33:40 - INFO - Server is running on port: 3030 
+10.7.2023, 23:33:51 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:33:52 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:34:36 - INFO - Server is running on port: 3030 
+10.7.2023, 23:34:54 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:34:55 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:40:20 - INFO - Server is running on port: 3030 
+10.7.2023, 23:41:22 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:41:22 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:42:02 - INFO - Server is running on port: 3030 
+10.7.2023, 23:42:16 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:42:16 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:42:43 - INFO - Server is running on port: 3030 
+10.7.2023, 23:43:00 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:43:00 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:43:25 - INFO - Server is running on port: 3030 
+10.7.2023, 23:43:25 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:43:25 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:48:33 - INFO - Server is running on port: 3030 
+10.7.2023, 23:48:45 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:48:46 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:52:04 - INFO - Server is running on port: 3030 
+10.7.2023, 23:52:14 - INFO - Server is running on port: 3030 
+10.7.2023, 23:52:20 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:52:21 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:52:23 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is null. 
+10.7.2023, 23:52:45 - INFO - Server is running on port: 3030 
+10.7.2023, 23:53:05 - INFO - Server is running on port: 3030 
+10.7.2023, 23:53:12 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:53:12 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:54:59 - INFO - Server is running on port: 3030 
+10.7.2023, 23:55:03 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:55:03 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:55:33 - INFO - Server is running on port: 3030 
+10.7.2023, 23:56:03 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:56:03 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:58:38 - INFO - Server is running on port: 3030 
+10.7.2023, 23:59:04 - INFO - Server is running on port: 3030 
+10.7.2023, 23:59:17 - DEBUG - auth.service - login try with email: user1@example.com 
+10.7.2023, 23:59:18 - INFO - User login:  | user1@example.com 
+10.7.2023, 23:59:39 - INFO - Server is running on port: 3030 
+11.7.2023, 0:00:31 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:00:31 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:00:41 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:00:41 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:01:12 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:01:12 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:04:46 - INFO - Server is running on port: 3030 
+11.7.2023, 0:04:56 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:04:56 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:05:13 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:05:13 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:06:16 - INFO - Server is running on port: 3030 
+11.7.2023, 0:07:29 - INFO - Server is running on port: 3030 
+11.7.2023, 0:07:35 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:07:36 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:07:49 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:07:49 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:09:28 - INFO - Server is running on port: 3030 
+11.7.2023, 0:09:52 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:09:52 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:11:08 - INFO - Server is running on port: 3030 
+11.7.2023, 0:11:31 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:11:31 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:11:40 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:11:41 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:12:30 - INFO - Server is running on port: 3030 
+11.7.2023, 0:13:07 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:13:07 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:16:44 - INFO - Server is running on port: 3030 
+11.7.2023, 0:16:47 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:16:47 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:23:26 - INFO - Server is running on port: 3030 
+11.7.2023, 0:23:43 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:23:43 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:23:53 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:23:53 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:30:10 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:30:10 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:33:47 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:33:47 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:34:43 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:34:43 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:35:09 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:35:09 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:35:26 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:35:26 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:36:03 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:36:03 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:37:49 - DEBUG - auth.service - login try with email: user2@example.com 
+11.7.2023, 0:37:49 - INFO - User login:  | user2@example.com 
+11.7.2023, 0:38:13 - DEBUG - auth.service - login try with email: user3@example.com 
+11.7.2023, 0:38:13 - INFO - User login:  | user3@example.com 
+11.7.2023, 0:42:46 - DEBUG - auth.service - login try with email: user2@example.com 
+11.7.2023, 0:42:46 - INFO - User login:  | user2@example.com 
+11.7.2023, 0:43:47 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:43:47 - INFO - User login:  | user1@example.com 
+11.7.2023, 0:48:24 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 0:48:24 - INFO - User login:  | user1@example.com 
+11.7.2023, 1:06:11 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 1:06:11 - INFO - User login:  | user1@example.com 
+11.7.2023, 1:21:45 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 1:21:45 - INFO - User login:  | user1@example.com 
+11.7.2023, 1:38:43 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 1:38:43 - INFO - User login:  | user1@example.com 
+11.7.2023, 1:44:54 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 1:44:54 - INFO - User login:  | user1@example.com 
+11.7.2023, 1:47:46 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 1:47:46 - INFO - User login:  | user1@example.com 

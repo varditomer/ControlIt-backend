@@ -1,6 +1,5 @@
 const fs = require('fs')
 const asyncLocalStorage = require('./als.service')
-const utilService = require('./util.service')
 
 
 const logsDir = './logs'
@@ -26,8 +25,8 @@ function doLog(level: string, ...args: any) {
 
     var line = strs.join(' | ')
     const store = asyncLocalStorage.getStore()
-    const userId = store?.loggedinUser?._id
-    const str = userId ? `(userId: ${userId})` : ''
+    const userEmail = store?.userInfo?.email
+    const str = userEmail ? `(userEmail: ${userEmail})` : ''
     line = `${getTime()} - ${level} - ${line} ${str}\n`
     console.log(line)
     fs.appendFile('./logs/backend.log', line, (err: Error) =>{
