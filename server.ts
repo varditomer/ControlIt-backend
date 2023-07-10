@@ -24,27 +24,17 @@ if (process.env.NODE_ENV === 'production') {
 } else {
     const corsOptions = {
         origin: ['http://127.0.0.1:5173', 'http://localhost:5173', 'http://localhost:8080', 'http://127.0.0.1:3000', 'http://localhost:3000'],
-        credentials: true
+        credentials: true,
+        allowedHeaders: ['Authorization', 'Content-Type'],
     }
     app.use(cors(corsOptions))
 }
 const authRoutes = require('./api/auth/auth.routes')
-// const partnerUserRoutes = require('./api/partner-user/partnerUser.routes')
-// const partnerRoutes = require('./api/partner/partner.routes')
-// const accountRoutes = require('./api/account/account.routes')
+const accountRoutes = require('./api/account/account.routes')
 
 // routes
-// const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
-// app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
-// app.use('/api/partner-user', partnerUserRoutes)
-// app.use('/api/partner', partnerRoutes)
-// app.use('/api/account', accountRoutes)
-
-// app.use('/api/car', (req: Request, res: Response) => {
-//     res.send('Not implemented, get from misterBackend...')
-// })
-// setupSocketAPI(http)
+app.use('/api/account', accountRoutes)
 
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
