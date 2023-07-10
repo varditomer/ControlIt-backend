@@ -5,7 +5,6 @@ import { query } from "../../services/db.service"
 
 // External Dependencies
 const logger = require('../../services/logger.service')
-const dbService = require('../../services/db.service')
 
 async function getAccountsByUserInfo(userInfo: UserInfo): Promise<Account[]> {
     try {

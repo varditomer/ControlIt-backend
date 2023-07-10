@@ -23,7 +23,6 @@ async function getAccounts(req: AccountControllerRequest, res: Response) {
     }
 }
 
-
 module.exports = {
     getAccounts,
 }
