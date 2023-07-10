@@ -1,0 +1,51 @@
+9.7.2023, 19:37:33 - INFO - Server is running on port: 3030 
+9.7.2023, 19:39:31 - INFO - Server is running on port: 3030 
+9.7.2023, 19:39:31 - INFO - Database controlit_app created successfully! 
+9.7.2023, 19:39:31 - INFO - Table partners created successfully! 
+9.7.2023, 19:39:31 - INFO - Table partner_users created successfully! 
+9.7.2023, 20:09:55 - INFO - Server is running on port: 3030 
+9.7.2023, 20:10:17 - INFO - Server is running on port: 3030 
+9.7.2023, 20:10:30 - INFO - Server is running on port: 3030 
+9.7.2023, 20:10:31 - INFO - Demo data inserted into the partners table! 
+9.7.2023, 20:10:31 - INFO - Demo data inserted into the partner_users table! 
+9.7.2023, 20:10:31 - INFO - Demo data inserted into the account table! 
+9.7.2023, 20:41:28 - INFO - Server is running on port: 3030 
+9.7.2023, 20:57:35 - INFO - Server is running on port: 3030 
+9.7.2023, 20:57:44 - INFO - Server is running on port: 3030 
+9.7.2023, 20:57:44 - INFO - Demo data inserted into the partners table! 
+9.7.2023, 20:57:44 - INFO - Demo data inserted into the partner_users table! 
+9.7.2023, 20:57:44 - INFO - Demo data inserted into the account table! 
+9.7.2023, 21:30:17 - INFO - Server is running on port: 3030 
+10.7.2023, 11:00:23 - INFO - Server is running on port: 3030 
+10.7.2023, 11:47:05 - INFO - Server is running on port: 3030 
+10.7.2023, 11:47:05 - INFO - Demo data inserted into the partners table! 
+10.7.2023, 11:47:06 - INFO - Demo data inserted into the partner_users table! 
+10.7.2023, 11:48:35 - INFO - Server is running on port: 3030 
+10.7.2023, 11:50:57 - INFO - Server is running on port: 3030 
+10.7.2023, 11:52:43 - INFO - Server is running on port: 3030 
+10.7.2023, 12:54:12 - INFO - Server is running on port: 3030 
+10.7.2023, 12:59:46 - INFO - Server is running on port: 3030 
+10.7.2023, 12:59:56 - INFO - Server is running on port: 3030 
+10.7.2023, 13:02:20 - INFO - Server is running on port: 3030 
+10.7.2023, 13:02:34 - ERROR - Failed to Login TypeError: Cannot read properties of undefined (reading 'password') 
+10.7.2023, 13:03:29 - INFO - Server is running on port: 3030 
+10.7.2023, 13:03:57 - INFO - Server is running on port: 3030 
+10.7.2023, 13:04:09 - INFO - Server is running on port: 3030 
+10.7.2023, 13:05:32 - ERROR - Failed to Login Invalid username or password 
+10.7.2023, 13:06:04 - ERROR - Failed to query from MySQL | Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:06:04 - ERROR - Cannot find partner_user by email: user1@example.com | Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:06:04 - ERROR - Failed to Login Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:07:05 - INFO - Server is running on port: 3030 
+10.7.2023, 13:07:43 - ERROR - Failed to query from MySQL | Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:07:43 - ERROR - Cannot find partner_user by email: user1@example.com | Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:07:43 - ERROR - Failed to Login Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:07:51 - ERROR - Failed to query from MySQL | Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:07:51 - ERROR - Cannot find partner_user by email: user1@example.com | Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:07:51 - ERROR - Failed to Login Error: Can't add new command when connection is in closed state 
+10.7.2023, 13:11:54 - INFO - Server is running on port: 3030 
+10.7.2023, 13:12:30 - ERROR - Failed to Login Invalid username or password 
+10.7.2023, 13:12:35 - ERROR - Failed to Login Invalid username or password 
+10.7.2023, 13:12:39 - ERROR - Failed to Login Invalid username or password 
+10.7.2023, 13:12:41 - ERROR - Failed to Login Invalid username or password 
+10.7.2023, 13:12:58 - ERROR - Failed to Login Invalid username or password 
+10.7.2023, 13:13:58 - INFO - Server is running on port: 3030 
