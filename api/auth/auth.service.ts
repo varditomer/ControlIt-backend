@@ -49,7 +49,7 @@ async function hashPassword(password: string) {
 }
 
 function generateToken(userInfo: UserInfo) {
-    return jwt.sign(userInfo, process.env.JWT_SECRET, { expiresIn: "1s" })
+    return jwt.sign(userInfo, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN })
 }
 
 function verifyToken(token: string): any {
