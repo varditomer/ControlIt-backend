@@ -49,11 +49,11 @@ To run ControlIt locally, you'll need to have the following software installed o
    ```bash
   PORT=3030
   DB_PORT=3306
-  DB_HOST=example_host
-  DB_USER=example_user
-  DB_PWD=example_password
-  DB_NAME=example_database
-  JWT_SECRET=example_jwt_secret
-  JWT_EXPIRES_IN=1h
+  DB_HOST="example_host"
+  DB_USER="example_user"
+  DB_PWD="example_password"
+  DB_NAME="example_database"
+  JWT_SECRET="example_jwt_secret"
+  JWT_EXPIRES_IN="1h"
    ```
 
