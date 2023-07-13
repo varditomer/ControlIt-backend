@@ -5,10 +5,10 @@ It provides a backend solution for managing pre-defined users control systems.
 
 ## Features
 
-* Authentication and authorization for user access control
-- JWT tokens implementation for highly secure system
-* Account API to view all related partners accounts of a specific user
-* Integration with MySQL database for data persistence
+- Authentication and authorization for user access control
++ JWT tokens implementation for highly secure system
+- Account API to view all related partners accounts of a specific user
+- Integration with MySQL database for data persistence
 
 ## Prerequisites
 
