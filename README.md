@@ -1,12 +1,14 @@
 # ControlIt Server
 
-ControlIt is a server-side project built with TypeScript, Express.js, Node.js, and MySQL. It provides a backend solution for managing control systems.
+ControlIt is a server-side project built with TypeScript, Express.js, Node.js, MySQL and JWT Tokens.  
+It provides a backend solution for managing pre-defined users control systems.
 
 ## Features
 
-- Authentication and authorization for user access control
-- CRUD operations for managing control systems
-- Integration with MySQL database for data persistence
+* Authentication and authorization for user access control
+- JWT tokens implementation for highly secure system
+* Account API to view all related partners accounts of a specific user
+* Integration with MySQL database for data persistence
 
 ## Prerequisites
 
@@ -32,7 +34,7 @@ To run ControlIt locally, you'll need to have the following software installed o
    npm install
    ```
 
-4. Configure the application's parameters:
+4. Configure application's parameters (.env file):
   Rename the .env.example file to .env.
   Update the .env file with your MySQL database credentials.
 ### example .env file needed
