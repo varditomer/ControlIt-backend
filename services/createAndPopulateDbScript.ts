@@ -1,8 +1,10 @@
 import { setupDbAndPopulate } from "./createAndPopulateDb.service"
+const logger = require('../services/logger.service')
+
 
 async function runScript() {
     await setupDbAndPopulate()
-    console.log('DB setup script complete successfully')
+    logger.info('DB setup script complete successfully')
     process.exit(0)
 }
 
