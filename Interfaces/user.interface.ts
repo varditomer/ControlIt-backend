@@ -23,7 +23,14 @@ export interface User extends Omit<PartnerUser, 'password'> {
     // password: string
 }
 
+export interface PartnerUserExpanded extends UserCredentials {
+    _id: string,
+    partner_id: string,
+    partner_name: string
+}
+
+
 export interface UserInfo {
     email: string,
-    partners: string[]
+    partners: Partner[]
 }

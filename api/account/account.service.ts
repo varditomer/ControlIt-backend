@@ -8,8 +8,9 @@ const logger = require('../../services/logger.service')
 
 async function getAccountsByUserInfo(userInfo: UserInfo): Promise<Account[]> {
   try {
-    const partnerIds = userInfo.partners.join(',') // Convert partner IDs array to comma-separated string
-    const queryString = `SELECT * FROM account WHERE partner_id IN (${partnerIds})`
+    const partnerIds = userInfo.partners.map(partner=>partner._id)
+    const partnerIdsStr = partnerIds.join(',') // Convert partner IDs array to comma-separated string
+    const queryString = `SELECT * FROM account WHERE partner_id IN (${partnerIdsStr})`
     const accounts = await query(queryString) as Account[]
     return accounts
   } catch (err) {

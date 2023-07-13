@@ -5,13 +5,6 @@ const cors = require('cors')
 const path = require('path')
 import * as dotenv from "dotenv"
 
-// import { _createDemoData } from './services/db.service'
-// // import { _createDatabaseTablesDemoData } from './services/db.service'
-// // _createDatabaseTablesDemoData()
-// _createDemoData()
-
-
-
 const app = express()
 const http = require('http').createServer(app)
 

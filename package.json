@@ -6,7 +6,8 @@
     "start": "set NODE_ENV=development&&npx nodemon",
     "server:dev": "set NODE_ENV=development&&npx nodemon",
     "server:prod": "set NODE_ENV=production && tsc && node dist/server.js",
-    "build": "tsc"
+    "build": "tsc",
+    "setup-db": "ts-node -r ./services/createAndPopulateDbScript.ts"
   },
   "keywords": [
     "Backend",

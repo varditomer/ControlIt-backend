@@ -144,3 +144,152 @@
 11.7.2023, 1:44:54 - INFO - User login:  | user1@example.com 
 11.7.2023, 1:47:46 - DEBUG - auth.service - login try with email: user1@example.com 
 11.7.2023, 1:47:46 - INFO - User login:  | user1@example.com 
+11.7.2023, 15:10:29 - INFO - Server is running on port: 3030 
+11.7.2023, 15:15:37 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 15:15:38 - INFO - User login:  | user1@example.com 
+11.7.2023, 15:17:34 - INFO - Server is running on port: 3030 
+11.7.2023, 15:18:01 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 15:18:01 - INFO - User login:  | user1@example.com 
+11.7.2023, 15:18:16 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 15:18:17 - INFO - User login:  | user1@example.com 
+11.7.2023, 15:20:24 - INFO - Server is running on port: 3030 
+11.7.2023, 15:20:52 - INFO - Server is running on port: 3030 
+11.7.2023, 15:37:57 - INFO - Server is running on port: 3030 
+11.7.2023, 15:38:08 - INFO - Server is running on port: 3030 
+11.7.2023, 15:38:21 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 15:38:21 - INFO - User login:  | user1@example.com 
+11.7.2023, 15:38:21 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is undefined. 
+11.7.2023, 15:38:49 - DEBUG - auth.service - login try with email: user1@example.com 
+11.7.2023, 15:38:49 - INFO - User login:  | user1@example.com 
+11.7.2023, 15:38:50 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is undefined. 
+13.7.2023, 13:40:20 - INFO - Server is running on port: 3030 
+13.7.2023, 13:41:24 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 13:41:25 - INFO - User login:  | user1@example.com 
+13.7.2023, 13:41:25 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is undefined. 
+13.7.2023, 13:41:39 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 13:41:40 - INFO - User login:  | user1@example.com 
+13.7.2023, 13:41:40 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is undefined. 
+13.7.2023, 13:43:23 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 13:43:23 - INFO - User login:  | user1@example.com 
+13.7.2023, 13:43:23 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is undefined. 
+13.7.2023, 14:05:34 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 14:05:34 - INFO - User login:  | user1@example.com 
+13.7.2023, 14:05:34 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is undefined. 
+13.7.2023, 14:50:21 - INFO - Server is running on port: 3030 
+13.7.2023, 14:50:38 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 14:50:38 - INFO - User login:  | user1@example.com 
+13.7.2023, 14:50:38 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is undefined. 
+13.7.2023, 14:54:46 - INFO - Server is running on port: 3030 
+13.7.2023, 14:55:53 - INFO - Server is running on port: 3030 
+13.7.2023, 14:56:09 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 14:56:10 - INFO - User login:  | user1@example.com 
+13.7.2023, 14:57:34 - INFO - Server is running on port: 3030 
+13.7.2023, 14:57:55 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 14:57:56 - INFO - User login:  | user1@example.com 
+13.7.2023, 14:58:35 - ERROR - Failed to get accounts TypeError: Cannot destructure property 'partners' of 'userInfo' as it is undefined. 
+13.7.2023, 14:59:51 - INFO - Server is running on port: 3030 
+13.7.2023, 15:00:00 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 15:00:01 - INFO - User login:  | user1@example.com 
+13.7.2023, 15:00:19 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 15:00:19 - INFO - User login:  | user1@example.com 
+13.7.2023, 15:05:38 - INFO - Server is running on port: 3030 
+13.7.2023, 15:05:58 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 15:05:58 - INFO - User login:  | user1@example.com 
+13.7.2023, 15:07:18 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 15:07:19 - INFO - User login:  | user1@example.com 
+13.7.2023, 17:06:53 - INFO - Server is running on port: 3030 
+13.7.2023, 17:07:50 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 17:07:51 - INFO - User login:  | user1@example.com 
+13.7.2023, 17:09:05 - INFO - Server is running on port: 3030 
+13.7.2023, 17:09:31 - INFO - Server is running on port: 3030 
+13.7.2023, 17:16:37 - INFO - Server is running on port: 3030 
+13.7.2023, 17:17:03 - INFO - Server is running on port: 3030 
+13.7.2023, 17:39:33 - INFO - Server is running on port: 3030 
+13.7.2023, 18:03:51 - INFO - Server is running on port: 3030 
+13.7.2023, 18:22:28 - INFO - Server is running on port: 3030 
+13.7.2023, 18:24:41 - INFO - Server is running on port: 3030 
+13.7.2023, 18:41:28 - INFO - Server is running on port: 3030 
+13.7.2023, 18:43:38 - INFO - Server is running on port: 3030 
+13.7.2023, 18:56:11 - INFO - Server is running on port: 3030 
+13.7.2023, 18:56:28 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 18:56:29 - INFO - User login:  | user1@example.com 
+13.7.2023, 18:59:19 - INFO - Server is running on port: 3030 
+13.7.2023, 18:59:40 - INFO - Server is running on port: 3030 
+13.7.2023, 18:59:54 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 18:59:54 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:01:06 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:01:07 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:01:32 - INFO - Server is running on port: 3030 
+13.7.2023, 19:01:39 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:01:39 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:03:04 - INFO - Server is running on port: 3030 
+13.7.2023, 19:03:24 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:03:24 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:16:56 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:16:56 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:37:59 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:37:59 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:39:30 - INFO - Server is running on port: 3030 
+13.7.2023, 19:39:45 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:39:45 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:40:39 - INFO - Server is running on port: 3030 
+13.7.2023, 19:41:08 - INFO - Server is running on port: 3030 
+13.7.2023, 19:41:26 - INFO - Server is running on port: 3030 
+13.7.2023, 19:42:10 - INFO - Server is running on port: 3030 
+13.7.2023, 19:43:08 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:43:08 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:44:20 - INFO - Server is running on port: 3030 
+13.7.2023, 19:44:28 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:44:29 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:44:51 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:44:51 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:45:56 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:45:56 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:46:57 - INFO - Server is running on port: 3030 
+13.7.2023, 19:47:13 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:47:13 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:51:02 - INFO - Server is running on port: 3030 
+13.7.2023, 19:51:44 - INFO - Server is running on port: 3030 
+13.7.2023, 19:51:51 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:51:51 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:52:22 - INFO - Server is running on port: 3030 
+13.7.2023, 19:52:27 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:52:27 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:52:27 - WARN - token verification failed due to expiry or token change 
+13.7.2023, 19:52:34 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:52:34 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:52:34 - WARN - token verification failed due to expiry or token change 
+13.7.2023, 19:52:36 - DEBUG - auth.service - login try with email: user1@example.com 
+13.7.2023, 19:52:36 - INFO - User login:  | user1@example.com 
+13.7.2023, 19:52:36 - WARN - token verification failed due to expiry or token change 
+13.7.2023, 19:53:11 - INFO - Server is running on port: 3030 
+13.7.2023, 20:45:04 - INFO - Server is running on port: 3030 
+13.7.2023, 20:46:45 - INFO - Server is running on port: 3030 
+13.7.2023, 20:50:12 - INFO - Server is running on port: 3030 
+13.7.2023, 20:50:27 - INFO - Server is running on port: 3030 
+13.7.2023, 20:50:33 - INFO - Server is running on port: 3030 
+13.7.2023, 20:51:21 - INFO - Server is running on port: 3030 
+13.7.2023, 20:51:31 - INFO - Server is running on port: 3030 
+13.7.2023, 20:52:04 - INFO - Server is running on port: 3030 
+13.7.2023, 20:52:14 - INFO - Server is running on port: 3030 
+13.7.2023, 20:53:31 - INFO - Server is running on port: 3030 
+13.7.2023, 20:54:24 - INFO - Server is running on port: 3030 
+13.7.2023, 20:54:58 - INFO - Server is running on port: 3030 
+13.7.2023, 20:55:36 - INFO - Server is running on port: 3030 
+13.7.2023, 20:55:58 - INFO - Server is running on port: 3030 
+13.7.2023, 20:56:04 - INFO - Server is running on port: 3030 
+13.7.2023, 20:58:20 - INFO - Server is running on port: 3030 
+13.7.2023, 20:58:39 - INFO - Server is running on port: 3030 
+13.7.2023, 20:59:11 - INFO - Server is running on port: 3030 
+13.7.2023, 21:00:45 - INFO - Server is running on port: 3030 
+13.7.2023, 21:00:58 - INFO - Server is running on port: 3030 
+13.7.2023, 21:01:05 - INFO - Server is running on port: 3030 
+13.7.2023, 21:01:12 - INFO - Server is running on port: 3030 
+13.7.2023, 21:01:33 - INFO - Server is running on port: 3030 
+13.7.2023, 21:02:00 - INFO - Server is running on port: 3030 
+13.7.2023, 21:02:11 - INFO - Server is running on port: 3030 
+13.7.2023, 21:02:28 - INFO - Server is running on port: 3030 
+13.7.2023, 21:03:06 - INFO - Server is running on port: 3030 
+13.7.2023, 21:03:17 - INFO - Server is running on port: 3030 
+13.7.2023, 21:03:29 - INFO - Server is running on port: 3030 
+13.7.2023, 21:05:46 - INFO - Server is running on port: 3030 
