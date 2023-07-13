@@ -293,3 +293,15 @@
 13.7.2023, 21:03:17 - INFO - Server is running on port: 3030 
 13.7.2023, 21:03:29 - INFO - Server is running on port: 3030 
 13.7.2023, 21:05:46 - INFO - Server is running on port: 3030 
+13.7.2023, 22:11:47 - INFO - Database try_db created successfully! 
+13.7.2023, 22:11:47 - INFO - Table partners created successfully! 
+13.7.2023, 22:11:47 - INFO - Table partner_users created successfully! 
+13.7.2023, 22:11:47 - INFO - Table account created successfully! 
+13.7.2023, 22:11:47 - INFO - Demo data inserted into the partners table! 
+13.7.2023, 22:11:48 - INFO - Demo data inserted into the partner_users table! 
+13.7.2023, 22:12:42 - INFO - Database try_db created successfully! 
+13.7.2023, 22:12:42 - INFO - Table partners created successfully! 
+13.7.2023, 22:12:42 - INFO - Table partner_users created successfully! 
+13.7.2023, 22:12:42 - INFO - Table account created successfully! 
+13.7.2023, 22:12:42 - INFO - Demo data inserted into the partners table! 
+13.7.2023, 22:12:42 - INFO - Demo data inserted into the partner_users table! 

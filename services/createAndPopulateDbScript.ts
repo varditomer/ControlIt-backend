@@ -1,9 +1,8 @@
-import { createDatabaseTablesDemoData } from "./createAndPopulateDb"
+import { setupDbAndPopulate } from "./createAndPopulateDb.service"
 
 async function runScript() {
-    console.log('Code works')
-    await createDatabaseTablesDemoData()
-    console.log('Script execution complete')
+    await setupDbAndPopulate()
+    console.log('DB setup script complete successfully')
     process.exit(0)
 }
 

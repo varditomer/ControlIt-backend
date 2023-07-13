@@ -45,10 +45,8 @@ async function _createLocalDatabase() {
     }
 }
 
-async function _createDatabaseScheme() {
+async function _createDatabaseScheme(connection: Connection) {
     try {
-        const connection = await _connectToDatabase()
-
         // Create 'partners' table
         await connection.query(`
       CREATE TABLE IF NOT EXISTS partners (
@@ -86,17 +84,14 @@ async function _createDatabaseScheme() {
       )
     `)
         logger.info('Table account created successfully!')
-
-        connection.end()
     } catch (error) {
         logger.error('Failed to create the tables', error)
         throw error
     }
 }
 
-async function _populateDatabaseWithDemoData() {
+async function _populateDatabaseWithDemoData(connection: Connection) {
     try {
-        const connection = await _connectToDatabase()
 
         // Insert demo data into the partners table
             await connection.query(`
@@ -138,8 +133,7 @@ async function _populateDatabaseWithDemoData() {
         }
         await connection.query('INSERT INTO account (url_code, name, partner_id) VALUES ?', [accountsData.map(account => [account.url_code, account.name, account.partner_id])])
         logger.info('Demo data inserted into the account table!')
-
-        connection.end()
+        
     } catch (error) {
         logger.error('Failed to insert the demo data', error)
         throw error
@@ -147,29 +141,28 @@ async function _populateDatabaseWithDemoData() {
 }
 
 
-async function createDatabaseTablesDemoData() {
-    console.log(`code works:`)
-    // let connection
-    // try {
-    //   // Create the database
-    //   await _createDatabaseScheme()
+async function setupDbAndPopulate() {
+    let connection
+    try {
+      // Create the database
+      await _createLocalDatabase()
 
-    //   // Connect to the database and create tables
-    //   connection = await _connectToDatabase()
-    //   await _createDatabaseTables()
+      // Connect to the database and create tables
+      connection = await _connectToDatabase()
+      await _createDatabaseScheme(connection)
 
-    //   // Insert demo data into tables
-    //   await _populateDatabaseWithDemoData()
+      // Insert demo data into tables
+      await _populateDatabaseWithDemoData(connection)
 
-    //   connection.end()
-    // } catch (error) {
-    //   logger.error('Failed to create the database, tables, and demo data', error)
-    //   if (connection) {
-    //     connection.end()
-    //   }
-    //   throw error
-    // }
+      connection.end()
+    } catch (error) {
+      logger.error('Failed to create the database, tables, and demo data', error)
+      if (connection) {
+        connection.end()
+      }
+      throw error
+    }
     return
   }
 
-  export { createDatabaseTablesDemoData }
+  export { setupDbAndPopulate }

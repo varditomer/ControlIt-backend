@@ -9,13 +9,13 @@ dotenv.config()
 
 async function _connectToDatabase() {
     try {
-        const db: Connection = await createConnection({
+        const connection: Connection = await createConnection({
             host: process.env.DB_HOST,
             user: process.env.DB_USER,
             password: process.env.DB_PWD,
             database: process.env.DB_NAME,
         })
-        return db
+        return connection
     } catch (err) {
         logger.error('Cannot connect to the database', err)
         throw err
